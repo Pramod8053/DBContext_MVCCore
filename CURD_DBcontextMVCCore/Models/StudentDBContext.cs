@@ -13,5 +13,6 @@ namespace CURD_DBcontextMVCCore.Models
 
         }
         public DbSet<Student> students { get; set; }
+        public DbSet<Teacher> teachers { get; set; }
     }
 }
